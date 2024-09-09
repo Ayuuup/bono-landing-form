@@ -94,7 +94,9 @@ button:hover {
 }
 
 @media (max-width:768px) {
-    .header ,.header-right{
+    .header ,
+    .header .header-right{
         flex-direction: column;
+        gap: 20px;
     }
 }
