@@ -38,3 +38,20 @@ body{
 .header-right a{
     color: white;
 }
+
+.main-content {
+    display:flex;
+    max-width: 1100px;
+    margin: 200px auto;
+    align-items: start;
+    padding: 0 40px;
+    gap: 50px;
+}
+
+.main-content form {
+    flex: 1;
+}
+
+.main-content .text-container {
+    flex: 1;
+}
