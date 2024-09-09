@@ -102,5 +102,6 @@ button:hover {
 
     .main-content{
         flex-direction: column-reverse;
+        margin-top: 20px;
     }
 }
