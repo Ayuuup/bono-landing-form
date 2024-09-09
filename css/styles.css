@@ -12,3 +12,7 @@ body{
 .header .logo {
     width: 100px;
 }
+
+.wrapper {
+    height: 100vh;
+}
