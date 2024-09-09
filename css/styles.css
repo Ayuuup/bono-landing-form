@@ -99,4 +99,8 @@ button:hover {
         flex-direction: column;
         gap: 20px;
     }
+
+    .main-content{
+        flex-direction: column-reverse;
+    }
 }
