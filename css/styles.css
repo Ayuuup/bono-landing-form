@@ -45,6 +45,8 @@ body{
     margin: 0 auto;
     align-items: center;
     height: 100%;
+    padding: 0 40px;
+    gap: 50px;
 }
 
 .main-content form {
