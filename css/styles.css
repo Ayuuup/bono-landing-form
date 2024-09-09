@@ -15,7 +15,7 @@ body{
 }
 
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -91,4 +91,27 @@ button:hover {
 
 .text-container p{
     font-size: 20px;
+}
+
+@media (max-width:768px) {
+    .header ,
+    .header .header-right{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .main-content{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    .main-content form{
+        width: 100%;
+    }
+
+    
 }
