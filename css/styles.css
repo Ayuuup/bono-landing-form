@@ -55,3 +55,7 @@ body{
 .main-content .text-container {
     flex: 1;
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
