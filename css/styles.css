@@ -74,4 +74,13 @@ body{
 
 button {
     width: 100%;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color:orange;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: blueviolet;
 }
