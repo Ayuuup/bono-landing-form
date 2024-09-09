@@ -104,4 +104,8 @@ button:hover {
         flex-direction: column-reverse;
         margin-top: 20px;
     }
+
+    .main-content form{
+        width: 100%;
+    }
 }
