@@ -66,3 +66,8 @@ body{
     font-size: 14px;
     font-weight: 600;
 }
+
+.form-group input,textarea {
+    width: 100%;
+    padding: 20px;
+}
