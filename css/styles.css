@@ -38,3 +38,7 @@ body{
 .header-right a{
     color: white;
 }
+
+.main-content {
+    display:flex
+}
