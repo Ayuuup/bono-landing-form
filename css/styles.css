@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+.header .logo {
+    width: 100px;
+}
+
+.wrapper {
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.header .header-right {
+    display: flex;
+    gap: 25px;
+
+}
+
+.header-right a{
+    color: white;
+}
