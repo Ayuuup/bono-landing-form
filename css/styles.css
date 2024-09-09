@@ -34,3 +34,7 @@ body{
     gap: 25px;
 
 }
+
+.header-right a{
+    color: white;
+}
